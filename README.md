@@ -175,7 +175,7 @@ It's also handy to comment out lines (with a #) to see where the issue may be.
 - `fill`: (default: orange) The title fill color.
 - `heightPercentage`: (default: 6) The percentage of the diagram height to use for the title.
 - `logoFill`: (default: orange) The color behind the logo.
-- `logoUrl`: (default: `build/images/radial.png`) The URL for the logo.
+- `logoUrl`: (default: `resources/img/radial.png`) The URL for the logo.
 - `stroke`: (default: orange) The line color for the title.
 - `subText`: The title subtext.
 - `text`: The title text.
@@ -388,7 +388,7 @@ This project is licensed under the MIT License. [MIT License](http://www.opensou
 
 azure-cloud
 ```
-cd build/images/azureCloud
+cd resources/img/azureCloud
 cp ~/Downloads/Microsoft_CloudnEnterprise_Symbols_v2.5_PUBLIC/Symbols/CnE_Cloud/SVG/*.svg .
 rename 's/[^a-zA-Z0-9_.]//g' *.svg
 rename -f 'y/A-Z/a-z/' *.svg

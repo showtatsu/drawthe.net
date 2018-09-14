@@ -23,7 +23,7 @@ function draw(doc) {
     stroke: "orange",
     fill: "orange",
     heightPercentage: 6, // percent of total height
-    logoUrl: "build/images/radial.png",
+    logoUrl: "resources/img/radial.png",
     logoFill: "orange"
   }
   // incase there are none

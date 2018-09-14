@@ -74,7 +74,7 @@ var drawIcons = function (svg, diagram, icons, iconTextRatio) {
           break;
       }
 
-      var url = "build/images/" + d.value.iconFamily + "/" + d.value.icon + ".svg"
+      var url = "resources/img/" + d.value.iconFamily + "/" + d.value.icon + ".svg"
       d3.xml(url).mimeType("image/svg+xml").get(function(error, xml) {
         var svg = xml.getElementsByTagName("svg")[0]
         svg.setAttribute("x", x)

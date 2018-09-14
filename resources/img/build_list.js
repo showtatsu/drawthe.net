@@ -27,4 +27,4 @@ iconFamilies["azureCloud"] = getFiles("azureCloud")
 iconFamilies["azureEnterprise"] = getFiles("azureEnterprise")
 iconFamilies["cisco"] = getFiles("cisco")
 
-fs.writeFile('../js/iconFamilies.json', JSON.stringify(iconFamilies, null, 2) , 'utf-8');
+fs.writeFile('../src/js/iconFamilies.json', JSON.stringify(iconFamilies, null, 2) , 'utf-8');
