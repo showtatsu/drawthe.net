@@ -7,15 +7,12 @@ COPY package.json ./
 RUN npm install
 
 COPY \
-  client.js \
-  server.js \
   index.html \
   render.html \
   fullscreen.html \
   quick_start.png \
   screenshot_gc.png \
   superspine.yaml \
-  test.yaml \
   ./
 COPY src ./src
 COPY resources ./resources
